@@ -1,0 +1,19 @@
+package com.example.demo;
+
+public class Exampleproperties {
+	
+	public Exampleproperties() {
+		
+		
+	}
+	
+	private String greeting = "thank you";
+	
+	public String getgreeting() {
+		return greeting;
+	}
+
+	public void setgreeting(String greeting) {
+		this.greeting = greeting;
+	}	
+}

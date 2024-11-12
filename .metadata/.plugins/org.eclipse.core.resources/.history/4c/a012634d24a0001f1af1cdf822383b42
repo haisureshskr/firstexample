@@ -1,0 +1,3 @@
+spring.application.name=com.example.demo.Exampleproperties
+
+oracleprops.greeting  = thank you visit again

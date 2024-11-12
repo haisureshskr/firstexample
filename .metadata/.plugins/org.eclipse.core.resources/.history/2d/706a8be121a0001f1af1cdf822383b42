@@ -1,0 +1,17 @@
+package com.example.demo;
+
+public class endpoint2 {
+	
+	public endpoint2() {
+		
+	@autowired
+	private UserDaoService service;
+		
+	@Getmapping("/users")
+	public List<User> retrieveAll(){
+		return service.findAll();
+	}
+	
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.example.demo;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+
+public class endpoint2 {
+	
+	public endpoint2() {
+		
+	@Autowired
+	private UserDaoService service;
+		
+	@GetMapping("/users")
+	public List<User> retrieveAll(){
+		return service.findAll();
+	}
+	
+	}
+
+}

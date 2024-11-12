@@ -1,0 +1,26 @@
+package com.example.demo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class UserDaoService {
+	
+	public UserDaoService() {
+		
+		
+	}
+	
+	private static List<User> users = new ArrayList<>();
+	
+	private static int usersCount = 3;
+	
+	static {
+		users.add(new User(1, "ram", new Date()))
+	
+	}
+
+	
+}

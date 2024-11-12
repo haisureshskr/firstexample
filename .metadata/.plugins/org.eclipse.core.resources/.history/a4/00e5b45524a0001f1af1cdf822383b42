@@ -1,0 +1,22 @@
+package com.example.demo;
+
+@component
+@Configurationproperties("oracleprops")
+
+public class Exampleproperties {
+	
+	public Exampleproperties() {
+		
+		
+	}
+	
+	private String greeting = "thank you";
+	
+	public String getgreeting() {
+		return greeting;
+	}
+
+	public void setgreeting(String greeting) {
+		this.greeting = greeting;
+	}	
+}
